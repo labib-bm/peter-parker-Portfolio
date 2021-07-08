@@ -1,0 +1,53 @@
+body {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.name-header {
+    font-size: 60px;
+}
+
+span {
+    color: orange;
+}
+
+.name-title {
+    font-size: 40px;
+}
+
+#name-description {
+    height: 100px;
+    width: 750px;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section {
+    display: flex;
+}
+
+.first-section {
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.first-section img {
+    width: 80%;
+}
+
+#hire-code {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: aqua;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+#first-banner {
+    background-image: url(images\top-banner.png);
+    background-repeat: no-repeat;
+}
