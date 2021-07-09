@@ -22,11 +22,15 @@ body {
 
 .my-part img {
     padding-left: 20px;
-    width: 90%;
+    width: 80%;
 }
 
-#my-section {
+
+.my-section {
     display: flex;
+    margin-bottom: 50px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 #hire-tag {
@@ -38,7 +42,37 @@ body {
     color: white;
 }
 
-#my-section {
-    background-image: url(images/top-banner.png);
+.next-section {
+    display: flex;
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
+}
+
+.next-part img {
+    width: 90%;
+    padding-left: 40px;
+}
+
+.next-part {
+    width: 50%;
+    padding: 0px 40px 0px 40px;
+}
+
+#next-name {
+    font-size: 40px;
+}
+
+#next-description {
+    text-align: justify;
+}
+
+#resume-tag {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    height: 20px;
+    padding: 10px 40px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
 }
