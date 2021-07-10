@@ -3,6 +3,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.flex-for {
+    display: flex;
+    margin-bottom: 50px;
+}
+
 .my-name {
     color: orange;
 }
@@ -27,8 +32,6 @@ body {
 
 
 .my-section {
-    display: flex;
-    margin-bottom: 50px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -43,7 +46,6 @@ body {
 }
 
 .next-section {
-    display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -75,4 +77,58 @@ body {
     font-weight: 700;
     color: white;
     border-radius: 10px;
+}
+
+.last-section-format {
+    display: flex;
+}
+
+.last-class {
+    width: 40%;
+    margin: 0% 5% 0% 5%;
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+}
+
+.last-top-head {
+    font-size: 40px;
+}
+
+.last-header {
+    font-size: 35px;
+    text-align: left;
+}
+
+.last-title {
+    font-size: 20px;
+    color: orange;
+}
+
+.copywright {
+    text-align: center;
+}
+
+#last-section {
+    margin-bottom: 50px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
